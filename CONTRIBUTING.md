@@ -1,7 +1,7 @@
 # Contributor Guide
 
 Thank you for your interest in improving this project.
-This project is open-source under the [BSD license license] and
+This project is open-source under the [MIT license license] and
 welcomes contributions in the form of bug reports, feature requests, and pull requests.
 
 Here is a list of important resources for contributors:
@@ -11,7 +11,7 @@ Here is a list of important resources for contributors:
 - [Issue Tracker]
 - [Code of Conduct]
 
-[bsd license license]: https://opensource.org/licenses/BSD license
+[mit license license]: https://opensource.org/licenses/MIT license
 [source code]: https://github.com/tngTUDOR/buyrandom3
 [documentation]: https://buyrandom3.readthedocs.io/
 [issue tracker]: https://github.com/tngTUDOR/buyrandom3/issues

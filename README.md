@@ -34,7 +34,7 @@ To learn more, see the [Contributor Guide].
 
 ## License
 
-Distributed under the terms of the [BSD license license][license],
+Distributed under the terms of the [MIT license license][license],
 _buyrandom3_ is free and open source software.
 
 ## Issues
