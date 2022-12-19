@@ -1,20 +1,16 @@
 # Contributor Guide
 
 Thank you for your interest in improving this project.
-This project is open-source under the [BSD license license] and
+This project is open-source under the [MIT license] and
 welcomes contributions in the form of bug reports, feature requests, and pull requests.
 
 Here is a list of important resources for contributors:
 
+- [Code of Conduct]
+- [License]
 - [Source Code]
 - [Documentation]
 - [Issue Tracker]
-- [Code of Conduct]
-
-[bsd license license]: https://opensource.org/licenses/BSD license
-[source code]: https://github.com/tngTUDOR/buyrandom3
-[documentation]: https://buyrandom3.readthedocs.io/
-[issue tracker]: https://github.com/tngTUDOR/buyrandom3/issues
 
 ## How to report a bug
 
@@ -43,6 +39,22 @@ Install the package with development requirements:
 $ pip install -e ".[dev]"
 ```
 
+## How to build the documentation locally
+
+Make sure you have installed the `dev` and `docs` extras of the package.
+
+```console
+$ pip install -e ".[dev,docs]"
+```
+
+Build the documentation providing the `docs` directory at the root of the project as the source
+and specifying the output directory.
+
+```console
+# use docs as source and docs/_build as output
+sphinx-build docs docs/_build
+```
+
 ## How to test the project
 
 
@@ -58,7 +70,6 @@ $ pip install -e ".[testing]"
 $ pytest
 ```
 
-List the available Nox sessions:
 
 Unit tests are located in the _tests_ directory,
 and are written using the [pytest] testing framework.
@@ -93,5 +104,12 @@ It is recommended to open an issue before starting work on anything.
 This will allow a chance to talk it over with the owners and validate your approach.
 
 [pull request]: https://github.com/tngTUDOR/buyrandom3/pulls
+[License]: https://opensource.org/licenses/MIT
+[Source Code]: https://github.com/tngTUDOR/buyrandom3
+[Documentation]: https://buyrandom3.readthedocs.io/
+[Issue Tracker]: https://github.com/tngTUDOR/buyrandom3/issues
 
-[code of conduct]: CODE_OF_CONDUCT.md
+
+<!-- github-only -->
+
+[Code of Conduct]: CODE_OF_CONDUCT.md

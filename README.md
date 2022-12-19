@@ -34,7 +34,7 @@ To learn more, see the [Contributor Guide].
 
 ## License
 
-Distributed under the terms of the [BSD license license][license],
+Distributed under the terms of the [MIT license][license],
 _buyrandom3_ is free and open source software.
 
 ## Issues
@@ -43,8 +43,8 @@ If you encounter any problems,
 please [file an issue] along with a detailed description.
 
 
-## Credits
+<!-- github-only -->
 
-
+[command-line reference]: https://buyrandom3.readthedocs.io/en/latest/usage.html
 [license]: https://github.com/tngTUDOR/buyrandom3/blob/main/LICENSE
 [contributor guide]: https://github.com/tngTUDOR/buyrandom3/blob/main/CONTRIBUTING.md

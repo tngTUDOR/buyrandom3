@@ -1,9 +1,7 @@
-"""Fixtures for buyrandom2"""
+"""Fixtures for buyrandom3"""
 
 import pytest
 
-
 @pytest.fixture
 def short_string():
-    """A short product name."""
-    return "lilb"
+    return "abc"
