@@ -7,7 +7,7 @@ def buy(random_string):
     """Decide whether to buy or not.
 
     Args:
-        random_string (str): a random product name.
+        random_string (str): a random~ish product name.
 
     Returns:
         boolean: Should you buy or stay.
