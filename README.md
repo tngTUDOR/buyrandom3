@@ -19,6 +19,9 @@
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [black]: https://github.com/psf/black
 
+## Docs version
+
+This is the documentation for lang {{ the_docs_lang }} for {{ the_docs_version }}
 ## Installation
 
 You can install _buyrandom3_ via [pip] from [PyPI]:

@@ -37,6 +37,16 @@ extensions = [
     "sphinx_click",
     "myst_parser",
 ]
+myst_enable_extensions = [
+    # to use variables from conf.py in md files
+    # See the variables below
+    'substitution'
+]
+myst_substitutions = {
+'the_docs_lang' : os.getenv('READTHEDOCS_LANGUAGE'),
+'the_docs_version' : os.getenv('READTHEDOCS_VERSION')
+}
+
 source_suffix = {
         ".rst": "restructuredtext",
         ".md": "markdown",
