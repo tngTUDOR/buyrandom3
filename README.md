@@ -19,6 +19,9 @@
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [black]: https://github.com/psf/black
 
+## Docs version
+
+This is the documentation for lang {{ the_docs_lang }} for {{ the_docs_version }}
 ## Installation
 
 You can install _buyrandom3_ via [pip] from [PyPI]:
@@ -34,7 +37,7 @@ To learn more, see the [Contributor Guide].
 
 ## License
 
-Distributed under the terms of the [MIT license license][license],
+Distributed under the terms of the [MIT license][license],
 _buyrandom3_ is free and open source software.
 
 ## Issues
@@ -45,6 +48,6 @@ please [file an issue] along with a detailed description.
 
 ## Credits
 
-
+[command-line reference]: https://buyrandom3.readthedocs.io/en/latest/usage.html
 [license]: https://github.com/tngTUDOR/buyrandom3/blob/main/LICENSE
 [contributor guide]: https://github.com/tngTUDOR/buyrandom3/blob/main/CONTRIBUTING.md
