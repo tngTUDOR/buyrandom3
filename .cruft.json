@@ -1,0 +1,24 @@
+{
+  "template": "/home/tomas/workspaces/buyrandom3/../dds/sentier-model-template",
+  "commit": "8f9194bc898ed8825b76eda821d9b40489f99d31",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Tomás NAVARRETE GUTIÉRREZ",
+      "email": "tngTUDOR@users.noreply.github.com",
+      "github_username": "tngTUDOR",
+      "project_name": "buyrandom3",
+      "package_name": "buyrandom3",
+      "project_short_description": "some buy, some random.",
+      "version": "0.0.22",
+      "use_pytest": "y",
+      "open_source_license": "MIT",
+      "copyright_year": "2024",
+      "_copy_without_render": [
+        ".github/*"
+      ],
+      "_template": "/home/tomas/workspaces/buyrandom3/../dds/sentier-model-template"
+    }
+  },
+  "directory": null
+}
