@@ -2,9 +2,13 @@
 # https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#loading-data-from-other-files
 # Original documentation implies that the __init__.py only has one line with __version__
 ---
+<<<<<<< ours
+{% set version_match = load_file_regex(load_file="buyrandom3/__init__.py", regex_pattern='(?:.*)__version__ = "(.+)"') %}
+=======
 {% set version_match = load_file_regex(load_file="buyrandom3/__init__.py", 
 regex_pattern='(?:.*)__version__ = "(.+)"') %}
 
+>>>>>>> theirs
 {% set version = version_match[1] %}
 
 
