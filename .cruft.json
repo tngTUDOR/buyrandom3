@@ -1,6 +1,6 @@
 {
   "template": "/home/tomas/workspaces/buyrandom3/../dds/sentier-model-template",
-  "commit": "0c96ed0f6d2f5b864d9ff035dabffeb90348c1a9",
+  "commit": "e4d888a4d071b55837616111dffd070e1eb6318b",
   "checkout": null,
   "context": {
     "cookiecutter": {
