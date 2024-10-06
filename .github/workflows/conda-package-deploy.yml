@@ -1,5 +1,5 @@
 ---
-name: Build and deploy conda package {{ cookiecutter.package_name }}
+name: Build and deploy conda package
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
       - '**.md'
 jobs:
   conda-pkg-build:
-    name: build {{ cookiecutter.package_name }} 
+    name: build
     runs-on: "ubuntu-latest"
     defaults:
       run:
